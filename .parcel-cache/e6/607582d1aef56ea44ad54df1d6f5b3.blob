@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="56179349d685e99c0ad469d9fea379c8" rel="stylesheet">
+    <link rel="shortcut icon" href="40631ad2bc37a5678917a091f60a93e1" type="image/x-icon">
+    <link rel="stylesheet" href="7b6dbcd09039560f394068d445f6edcd">
+    <script defer="" src="9e58044eb023ac0cb64933ff0bfdef79"></script>
+
+    <title>Menu Masters</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="2ad4a3a29b50fc38ef0bc339f0278850" alt="Logo" class="headerLogo">
+        <form class="search">
+          <input type="text" class="searchField" placeholder="Search recipes...">
+          <button class="btn searchBTN">
+            <svg class="searchIcon">
+              <use href="f92d73b3a746cc92c06918e3dd593247"></use>
+            </svg>
+            <span>Search</span>
+          </button>
+        </form>
+
+        <nav class="nav">
+          <ul class="navList">
+            <li class="navItem">
+              <button class="navBTN navBTN--add-recipe">
+                <svg class="navIcon">
+                  <use href="d4f018bcc0899d5b9a027c012524344e"></use>
+                </svg>
+                <span>Add recipe</span>
+              </button>
+            </li>
+            <li class="navItem">
+              <button class="navBTN navBTN--bookmarks">
+                <svg class="navIcon">
+                  <use href="a6b1d0fad2e8849d1c90b2c8b90a0a42"></use>
+                </svg>
+                <span>Bookmarks</span>
+              </button>
+              <div class="bookmarks">
+                <ul class="bookmarksList">
+                  <div class="message">
+                    <div>
+                      <svg>
+                        <use href="4ed7dd822fb9044733a69341ed082169"></use>
+                      </svg>
+                    </div>
+                    <p>
+                      No bookmarks yet. Find a nice recipe and bookmark it!
+                    </p>
+                  </div>
+
+                  <!-- <li class="preview">
+                    <a class="previewLink" href="#23456">
+                      <figure class="previewFig">
+                        <img src="src/img/test-1.jpg" alt="Test" />
+                      </figure>
+                      <div class="previewData">
+                        <h4 class="previewName">
+                          Pasta with Tomato Cream ...
+                        </h4>
+                        <p class="previewPublisher">The Pioneer Woman</p>
+                      </div>
+                    </a>
+                  </li> -->
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="search-results">
+        <ul class="results">
+          < a href="#5ed6604591c37cdc054bc96e">RECIPE
+          <!-- 
+          <li class="preview">
+            <a class="previewLink previewLink--active" href="#23456">
+              <figure class="previewFig">
+                <img src="src/img/test-1.jpg" alt="Test" />
+              </figure>
+              <div class="previewData">
+                <h4 class="previewTitle">Pasta with Tomato Cream ...</h4>
+                <p class="previewPublisher">The Pioneer Woman</p>
+                <div class="previewUser-generated">
+                  <svg>
+                    <use href="src/img/icons.svg#icon-user"></use>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </li>
+           -->
+        </ul>
+
+        <div class="pagination">
+          <!-- <button class="btn--inline paginationBTN--prev">
+            <svg class="searchIcon">
+              <use href="src/img/icons.svg#icon-arrow-left"></use>
+            </svg>
+            <span>Page 1</span>
+          </button>
+          <button class="btn--inline paginationBTN--next">
+            <span>Page 3</span>
+            <svg class="searchIcon">
+              <use href="src/img/icons.svg#icon-arrow-right"></use>
+            </svg>
+          </button> -->
+        </div>
+
+        <p class="copyright">
+          &copy; Copyright by
+          <a class="twitter-link" target="_blank" href="a36d78147822172df00a4a1611044997">Marija Ljubicic</a>
+        </p>
+      </div>
+
+      <div class="recipe">
+        <div class="message">
+          <div>
+
+          </div>
+          <p>Start by searching for a recipe or an ingredient.</p>
+        </div>
+
+        <!-- <div class="spinner">
+          <svg>
+            <use href="src/img/icons.svg#icon-loader"></use>
+          </svg>
+        </div> -->
+
+        <!-- <div class="error">
+            <div>
+              <svg>
+                <use href="src/img/icons.svg#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>No recipes found for your query. Please try again!</p>
+          </div> -->
+
+        <!--
+          <figure>
+              <img src="src/img/test-1.jpg" alt="${recipe.title}" class="recipeImg"/>
+              <h1>
+                  <span>${recipe.title}</span> 
+              </h1>
+          </figure>
+
+          <div class="recipeDetails">
+              <div class="recipeInfo">
+                  <svg class="recipeInfo-icon">
+                      <use href="src/img/icons.svg#icon-clock"></use>
+                  </svg>
+                  <span class="recipeInfo-data recipeInfo-data--minutes">${recipe.cookingTime}</span>
+                  <span class="recipeInfo-text">min</span>
+              </div>
+              <div class="recipeInfo">
+                  <svg class="recipeInfo-icon">
+                      <use href="src/img/icons.svg#icon-users"></use>
+                  </svg>
+                  <span class="recipeInfo-data recipeInfo-data--people">${recipe.servings}</span>
+                  <div class="recipeInfo-buttons">
+                      <button class="btn--tiny btn--increase-servings">
+                          <svg>
+                            <use href="src/img/icons.svg#icon-minus-circle"></use>
+                          </svg>
+                      </button>
+                      <button class="btn--tiny btn--increase-servings">
+                          <svg>
+                            <use href="src/img/icons.svg#icon-plus-circle"></use>
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+              <div class="recipeUser-generated">
+                  <svg>
+                      <use href="src/img/icons.svg#icon-user"></use>
+                  </svg>
+              </div>
+              <button class="btn--round">
+                  <svg>
+                    <use href="src/img/icons.svg#icon-bookmark-fill"></use>
+                  </svg>
+              </button>
+
+              <div class="recipeIngredients">
+                  <h2 class="heading--2">Recipe ingredients</h2>
+                  <ul class="recipeIngredient-list">
+                      <li class="recipeIngredient">
+                          <svg class="recipeIcon">
+                              <use href="src/img/icons.svg#icon-check"></use>
+                          </svg>
+                          <div class="recipeQuantity"></div>
+                          <div class="recipeDescription">
+                              <span class="recipeUnit"></span>
+                          </div>
+                      </li>
+                      <li class="recipeIngredient">
+                          <svg class="recipeIcon">
+                              <use href="src/img/icons.svg#icon-check"></use>
+                          </svg>
+                          <div class="recipeQuantity"></div>
+                          <div class="recipeDescription"></div>
+                      </li>
+                  </ul>
+              </div>
+              <div class="recipeDirections">
+                  <h2 class="heading--2">How to cook it</h2>
+                  <p class="recipeDirections-text">This recipe was carefully designed and tested by
+                      <span class="recipePublisher">The Pioneer Woman</span>. Please check out
+                      directions at their website.
+                  </p>
+                  <a class="btn--small recipeBTN" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" target="_blank"></a>
+                  <span>Directions</span>
+                  <svg class="searchIcon">
+                      <use href="src/img/icons.svg#icon-arrow-right"></use>
+                  </svg>
+              </div>
+          </div>
+
+        -->
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <div class="add-recipe-window hidden">
+      <button class="btn--close-modal">&times;</button>
+      <form class="upload">
+        <div class="uploadColumn">
+          <h3 class="uploadHeading">Recipe data</h3>
+          <label>Title</label>
+          <input value="TEST" required="" name="title" type="text">
+          <label>URL</label>
+          <input value="TEST" required="" name="sourceUrl" type="text">
+          <label>Image URL</label>
+          <input value="TEST" required="" name="image" type="text">
+          <label>Publisher</label>
+          <input value="TEST" required="" name="publisher" type="text">
+          <label>Prep time</label>
+          <input value="23" required="" name="cookingTime" type="number">
+          <label>Servings</label>
+          <input value="23" required="" name="servings" type="number">
+        </div>
+
+        <div class="uploadColumn">
+          <h3 class="uploadHeading">Ingredients</h3>
+          <label>Ingredient 1</label>
+          <input value="0.5,kg,Rice" type="text" required="" name="ingredient-1" placeholder="Format: 'Quantity,Unit,Description'">
+          <label>Ingredient 2</label>
+          <input value="1,,Avocado" type="text" name="ingredient-2" placeholder="Format: 'Quantity,Unit,Description'">
+          <label>Ingredient 3</label>
+          <input value=",,salt" type="text" name="ingredient-3" placeholder="Format: 'Quantity,Unit,Description'">
+          <label>Ingredient 4</label>
+          <input type="text" name="ingredient-4" placeholder="Format: 'Quantity,Unit,Description'">
+          <label>Ingredient 5</label>
+          <input type="text" name="ingredient-5" placeholder="Format: 'Quantity,Unit,Description'">
+          <label>Ingredient 6</label>
+          <input type="text" name="ingredient-6" placeholder="Format: 'Quantity,Unit,Description'">
+        </div>
+
+        <button class="btn uploadBTN">
+          <svg>
+            <use href="13ca095b770aed59e66f2635833629b4"></use>
+          </svg>
+          <span>Upload</span>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
